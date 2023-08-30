@@ -7,14 +7,11 @@ import java.awt.event.ActionListener;
 
 public class CalculatorGui implements ActionListener {
     static JTextField textField, activitiesText;
-    MathematicalFunctions mathmaticalFunctions = new MathematicalFunctions();
-    JRadioButton onRadioButton, offRadioButton;
-    JButton[] buttons, functionButtons;
-    JButton buttonDivide, buttonMultiply, buttonSub, buttonAdd, buttonEquals, buttonDot, button0, button1, button2, button3, button4, button5, button6, button7, button8, button9, buttonRand, buttonAns, buttonDel, buttonAc;
-    JButton buttonSin, buttonCos, buttonTan, buttonLog, buttonSqrt, buttonSqr, buttonPer, buttonFact, buttonPi, buttonInv, buttonOpnBrk, buttonCloBrk;
-    boolean provideAns = false;
-    float firstNumber, secondNumber, answer;
-
+    MathematicalFunctions mathmaticalFunctions = new MathematicalFunctions(); // creating an object of MathematicalFunctions class
+    JRadioButton onRadioButton, offRadioButton; // creating radio buttons for on and off
+    JButton[] buttons, functionButtons; // creating an array for our buttons
+    JButton buttonDivide, buttonMultiply, buttonSub, buttonAdd, buttonEquals, buttonDot, button0, button1, button2, button3, button4, button5, button6, button7, button8, button9, buttonRand, buttonAns, buttonDel, buttonAc; // creating buttons for our calculator
+    JButton buttonSin, buttonCos, buttonTan, buttonLog, buttonSqrt, buttonSqr, buttonPer, buttonFact, buttonPi, buttonInv, buttonOpnBrk, buttonCloBrk; // creating buttons for our calculator
     void crateGui() {
         // creating a frame for our calculator
         JFrame frame = new JFrame("Scientific Calculator");
@@ -150,7 +147,8 @@ public class CalculatorGui implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        String buttonName = e.getActionCommand();
+        String buttonName = e.getActionCommand(); // getting the name of the button which is pressed
+        // setting the action for our radio buttons
         if (buttonName.equals("ON")) {
             for (JButton button : buttons) {
                 button.setEnabled(true);
@@ -167,6 +165,7 @@ public class CalculatorGui implements ActionListener {
             }
 
         }
+        // setting the action for our buttons
         switch (buttonName) {
             case "1":
                 textField.setText(textField.getText() + "1");

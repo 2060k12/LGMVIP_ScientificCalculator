@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44a5786f-7e28-4c34-90a8-dddb4b1911f5" name="Changes" comment="Starting a GUI bases scientific project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LGMVIP/MathematicalFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="44a5786f-7e28-4c34-90a8-dddb4b1911f5" name="Changes" comment="Starting a GUI based scientific calculator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LGMVIP/CalculatorGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LGMVIP/CalculatorGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LGMVIP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LGMVIP/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LGMVIP/MathematicalFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LGMVIP/MathematicalFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692769286136</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Starting a GUI based scientific calculator">
+      <option name="closed" value="true" />
+      <created>1693384438215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693384438215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting a GUI bases scientific project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting a GUI bases scientific project" />
+    <MESSAGE value="Starting a GUI based scientific calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting a GUI based scientific calculator" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ScientificCalculator$Main.ic" NAME="Main Coverage Results" MODIFIED="1692769695030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
